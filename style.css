@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #975a5e;
+    height: 100vh;
+}
+
+input{
+    background-color: #f3cba5;
+    margin: 40px;
+    height: 40px;
+    width: 600px;
+    border-radius: 8%;
+    font-size: x-large;
+}
+
+.frontPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria;
+    color: #25161b;
+    font-size: xx-large;
+}
