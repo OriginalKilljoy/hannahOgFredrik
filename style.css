@@ -24,11 +24,16 @@ input{
     font-family: Cambria;
     color: #25161b;
     font-size: xx-large;
-    animation-name: fadeInText;
+    animation-name: topDown;
     animation-duration: 4s;
 }
 
 @keyframes fadeInText{
     from {opacity: 0%;}
     to {opacity: 100%;}
+}
+
+@keyframes topDown{
+    from {top: 0%};
+    to{top: 50%;}
 }
