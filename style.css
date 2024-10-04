@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body{
     display: flex;
     justify-content: center;
@@ -21,7 +23,7 @@ input{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: Cambria;
+    font-family: Merriweather;
     color: #25161b;
     font-size: xx-large;
     animation-name: topDown;
@@ -37,3 +39,4 @@ input{
     from {top: 0%};
     to{top: 50%;}
 }
+
